@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/artist"
+        android:textSize="26sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/album"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/song"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <SeekBar
+        android:id="@+id/my_custom_seek_bar"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/progress"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:textColor="#ffffff"
+            android:text="--:--"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:textColor="#ffffff"
+            android:text="--:--"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/player_notification_control_previous"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/ic_notifplayer_previous"
+            android:background="#00000000"
+            android:text="Previous"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/player_notification_control_play"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="#00000000"
+                android:src="@drawable/ic_notifplayer_play" />
+
+            <ProgressBar
+                android:id="@+id/player_loading"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+
+        <ImageButton
+            android:id="@+id/player_notification_control_next"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/ic_notifplayer_next"
+            android:background="#00000000"
+            android:text="Next"/>
+
+    </LinearLayout>
+
+</LinearLayout>

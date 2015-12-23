@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/diogojayme/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/diogojayme/Desktop/projetos android/SimplePlayer-Master/player/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-cc2eac70398d7eab3267c9e918c69297ed40d9dc.jar" />
+    </item>
+    <item
+        jar="/Users/diogojayme/Desktop/projetos android/SimplePlayer-Master/player/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/diogojayme/Desktop/projetos android/SimplePlayer-Master/player/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-a16c4dfdeb603a45450c6972a89166d155072e41.jar" />
+    </item>
+    <item
+        jar="/Users/diogojayme/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/diogojayme/Desktop/projetos android/SimplePlayer-Master/player/build/intermediates/pre-dexed/debug/butterknife-7.0.1-2c2edae7e2dd3393b7f65b60620f06ea336c1701.jar" />
+    </item>
+    <item
+        jar="/Users/diogojayme/.gradle/caches/modules-2/files-2.1/com.michaelpardo/activeandroid/3.1.0-SNAPSHOT/4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08/activeandroid-3.1.0-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08">
+        <dex dex="/Users/diogojayme/Desktop/projetos android/SimplePlayer-Master/player/build/intermediates/pre-dexed/debug/activeandroid-3.1.0-SNAPSHOT-eff7f9356a5b8a661cdad1a86d0cbad34e1f7dae.jar" />
+    </item>
+    <item
+        jar="/Users/diogojayme/Desktop/projetos android/SimplePlayer-Master/player/build/intermediates/exploded-aar/com.facebook.conceal/conceal/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="ed142991f9497e297a853cdcaaca7bc09d4cfa37">
+        <dex dex="/Users/diogojayme/Desktop/projetos android/SimplePlayer-Master/player/build/intermediates/pre-dexed/debug/classes-8c52e441f7bf04775e5a97b172c2df81a5e45dba.jar" />
+    </item>
+    <item
+        jar="/Users/diogojayme/Desktop/projetos android/SimplePlayer-Master/player/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/diogojayme/Desktop/projetos android/SimplePlayer-Master/player/build/intermediates/pre-dexed/debug/classes-20bf4eee6c58ea214df8f907665301f5eedd21bd.jar" />
+    </item>
+    <item
+        jar="/Users/diogojayme/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/diogojayme/Desktop/projetos android/SimplePlayer-Master/player/build/intermediates/pre-dexed/debug/picasso-2.5.2-7ee490bb1876242e8c7158428cde22a631b2942d.jar" />
+    </item>
+    <item
+        jar="/Users/diogojayme/Desktop/projetos android/SimplePlayer-Master/player/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/diogojayme/Desktop/projetos android/SimplePlayer-Master/player/build/intermediates/pre-dexed/debug/classes-71e658fd093227bb4714a9817707a849435a6962.jar" />
+    </item>
+
+</items>
