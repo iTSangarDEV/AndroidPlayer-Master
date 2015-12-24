@@ -2,7 +2,7 @@
 
 # Usage
 
-  ```
+  ```java
    PlayerController playerController = new PlayerController();
    playerController.addOnMediaChangedListener(this);
    playerController.addOnProgressListener(this);
