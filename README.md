@@ -2,7 +2,8 @@
 
 # Usage
 
-  ```PlayerController playerController = new PlayerController();
+  ```
+   PlayerController playerController = new PlayerController();
   
    playerController.addOnMediaChangedListener(this);
    
@@ -12,5 +13,6 @@
    
    playerController.addOnLoadingListener(this);
    
-   playerController.connect(context);```
+   playerController.connect(context);
+   ```
 
