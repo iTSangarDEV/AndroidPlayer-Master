@@ -24,11 +24,19 @@ Disconnect from service
 playerController.disconnect();
 ```
 
-##Methods
+##Adding Songs to player
+PlayerController is based on `MediaStore` from the default MediaPlayer. This means you have to pass your data to PlayerController by creating Model based on `Album`, `Artist` and `Song`
 
+###Usage
+ ```java
+ MediaStore mediaStore = new MediaStore().create(Album, Artist, List<Song>);
+ playerController.setMediaStore(mediaStore);
+ ```
+##Methods
 
 #Notification
 The controls of the notification are auto-managed, so you cannot need to link notification actions to view actions, we already did this for you.
+
 To show notification
 
 ```java
